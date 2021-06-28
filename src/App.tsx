@@ -1,6 +1,7 @@
 import Counter from "./components/Counter";
 import User from "./components/User";
 import TimerContainer from "./components/TimerContainer";
+import CounterRed from "./components/CounterRed";
 
 function App() {
 	return (
@@ -15,6 +16,9 @@ function App() {
 			<br />
 			<hr />
 			<TimerContainer />
+
+			<hr />
+			<CounterRed />
 		</>
 	);
 }
