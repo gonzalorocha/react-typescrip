@@ -41,7 +41,7 @@ const CounterRed = () => {
 		<>
 			<h2>Counter red</h2>
 			<p>
-				Counter <span>{counter.counter}</span>
+				Counter with useRed. <span>{counter.counter}</span>
 			</p>
 
 			<button
